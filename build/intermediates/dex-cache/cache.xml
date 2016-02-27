@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_dab9e0ea6445a933789f09aaaab59d36540eb2ae.jar" />
+    </item>
+    <item
+        jar="/home/hema/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_71095c6c5fd6c33cc8561d30f860e3e4a6f48b4d.jar" />
+    </item>
+    <item
+        jar="/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0_5f3fb11e40d73feae8b51dbb15e8495cbf5892d8.jar" />
+    </item>
+    <item
+        jar="/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_a02f8f9af4bba2bb2435d0098c5c6dbd17548697.jar" />
+    </item>
+    <item
+        jar="/home/hema/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0_80269e63b329ffa99224aedbdc3e74cb36bffcf2.jar" />
+    </item>
+    <item
+        jar="/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_a01f439a5fe563849cbd40f7d1d59f915dc1e894.jar" />
+    </item>
+    <item
+        jar="/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.0_37b101a0162aecfaa3c3ad0444b6df54d7553b46.jar" />
+    </item>
+
+</items>
