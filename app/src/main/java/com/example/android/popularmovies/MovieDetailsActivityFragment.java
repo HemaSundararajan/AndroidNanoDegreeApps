@@ -58,8 +58,8 @@ public class MovieDetailsActivityFragment extends Fragment {
             TextView synopsisTextView = (TextView) rootView.findViewById(R.id.overview);
             synopsisTextView.setText(movie.getSynopsis().toString());
 
-            RatingBar userRatingTextView = (RatingBar) rootView.findViewById(R.id.ratingBar);
-            userRatingTextView.setRating(movie.getUserRating().floatValue() / 2);
+            TextView userRatingTextView = (TextView) rootView.findViewById(R.id.ratingBar);
+            userRatingTextView.setText("User Rating : " + movie.getUserRating().toString());
 
             TextView releaseDateTextView = (TextView) rootView.findViewById(R.id.releaseDate);
             releaseDateTextView.setText("Release Date : " +movie.getReleaseDate().toString());

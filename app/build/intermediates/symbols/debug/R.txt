@@ -521,13 +521,13 @@ int id multiply 0x7f0e0014
 int id never 0x7f0e001f
 int id none 0x7f0e000e
 int id normal 0x7f0e000a
-int id overview 0x7f0e0053
+int id overview 0x7f0e0055
 int id parentPanel 0x7f0e002d
 int id progress_circular 0x7f0e0005
 int id progress_horizontal 0x7f0e0006
 int id radio 0x7f0e003b
-int id ratingBar 0x7f0e0055
-int id releaseDate 0x7f0e0054
+int id ratingBar 0x7f0e0054
+int id releaseDate 0x7f0e0053
 int id screen 0x7f0e0015
 int id scrollIndicatorDown 0x7f0e0035
 int id scrollIndicatorUp 0x7f0e0032

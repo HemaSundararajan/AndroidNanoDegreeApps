@@ -1686,13 +1686,13 @@ containing a value of this type.
         public static final int never=0x7f0e001f;
         public static final int none=0x7f0e000e;
         public static final int normal=0x7f0e000a;
-        public static final int overview=0x7f0e0053;
+        public static final int overview=0x7f0e0055;
         public static final int parentPanel=0x7f0e002d;
         public static final int progress_circular=0x7f0e0005;
         public static final int progress_horizontal=0x7f0e0006;
         public static final int radio=0x7f0e003b;
-        public static final int ratingBar=0x7f0e0055;
-        public static final int releaseDate=0x7f0e0054;
+        public static final int ratingBar=0x7f0e0054;
+        public static final int releaseDate=0x7f0e0053;
         public static final int screen=0x7f0e0015;
         public static final int scrollIndicatorDown=0x7f0e0035;
         public static final int scrollIndicatorUp=0x7f0e0032;
