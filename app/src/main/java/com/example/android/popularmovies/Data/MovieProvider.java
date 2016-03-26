@@ -25,6 +25,7 @@ public class MovieProvider extends ContentProvider {
 
     static {
         sMovieQueryBuilder = new SQLiteQueryBuilder();
+        sMovieQueryBuilder.setTables(MovieContract.MovieEntry.TABLE_NAME);
     }
 
     @Override
@@ -123,6 +124,7 @@ public class MovieProvider extends ContentProvider {
         String authority = MovieContract.CONTENT_AUTHORITY;
 
         uriMatcher.addURI(authority,MovieContract.PATH_MOVIE,MOVIE);
+        uriMatcher.addURI(authority, MovieContract.PATH_MOVIE + "/*", MOVIE);
 
         return uriMatcher;
     }

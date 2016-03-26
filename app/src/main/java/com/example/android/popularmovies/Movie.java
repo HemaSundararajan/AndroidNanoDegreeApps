@@ -4,6 +4,7 @@ package com.example.android.popularmovies;
  * Created by hema on 27/2/16.
  */
 import java.io.Serializable;
+import java.util.List;
 
 @SuppressWarnings("serial")
 public class Movie implements Serializable {
@@ -13,17 +14,21 @@ public class Movie implements Serializable {
     private String synopsis;
     private Double userRating;
     private String releaseDate;
+    private Boolean isFavourite;
+    private List<String> reviews;
+    private List<String> trailerUrl;
 
     public Movie() {
 
     }
-    public Movie(int MovieId,String MovieImageUrl, String OriginalTitle,String Synopsis,Double UserRating,String ReleaseDate) {
+    public Movie(int MovieId,String MovieImageUrl, String OriginalTitle,String Synopsis,Double UserRating,String ReleaseDate,Boolean isFavourite) {
         this.movieId = MovieId;
         this.movieImageUrl = MovieImageUrl;
         this.originalTitle = OriginalTitle;
         this.synopsis = Synopsis;
         this.userRating = UserRating;
         this.releaseDate = ReleaseDate;
+        this.isFavourite = isFavourite;
     }
 
     public int getMovieId() {
@@ -73,5 +78,17 @@ public class Movie implements Serializable {
     public void setReleaseDate(String ReleaseDate){
         this.releaseDate = ReleaseDate;
     }
+
+    public boolean getIsFavourite() { return isFavourite; }
+
+    public void setIsFavourite(Boolean isFavourite) { this.isFavourite = isFavourite;}
+
+    public List<String> getReviews() { return reviews; }
+
+    public void setReviews(List<String> reviews) { this.reviews = reviews;}
+
+    public List<String> getTrailerUrl() {return this.trailerUrl;}
+
+    public void setTrailerUrl(List<String> trailerUrl) {this.trailerUrl = trailerUrl;}
 }
 

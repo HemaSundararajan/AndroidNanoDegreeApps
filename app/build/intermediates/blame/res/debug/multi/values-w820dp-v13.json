@@ -7,9 +7,9 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endLine": 5,
+                    "endLine": 6,
                     "endColumn": 19,
-                    "endOffset": 175
+                    "endOffset": 207
                 },
                 "from": {
                     "file": "/home/hema/AndroidStudioProjects/PopularMovies/app/src/main/res/values-w820dp/arrays.xml",
@@ -17,43 +17,50 @@
                         "startLine": 4,
                         "startColumn": 4,
                         "startOffset": 57,
-                        "endLine": 7,
+                        "endLine": 8,
                         "endColumn": 19,
-                        "endOffset": 177
+                        "endOffset": 209
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 180,
-                    "endLine": 9,
+                    "startOffset": 212,
+                    "endLine": 11,
                     "endColumn": 19,
-                    "endOffset": 301
+                    "endOffset": 365
                 },
                 "from": {
                     "file": "/home/hema/AndroidStudioProjects/PopularMovies/app/src/main/res/values-w820dp/arrays.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 183,
-                        "endLine": 12,
+                        "startOffset": 215,
+                        "endLine": 14,
                         "endColumn": 19,
-                        "endOffset": 304
+                        "endOffset": 368
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 306,
+                    "startOffset": 370,
                     "endColumn": 57,
-                    "endOffset": 359
+                    "endOffset": 423
                 },
                 "from": {
-                    "file": "/home/hema/AndroidStudioProjects/PopularMovies/app/src/main/res/values-w820dp/dimens.xml"
+                    "file": "/home/hema/AndroidStudioProjects/PopularMovies/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 57,
+                        "endOffset": 344
+                    }
                 }
             }
         ]

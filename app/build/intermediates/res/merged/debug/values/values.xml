@@ -3,10 +3,12 @@
     <string-array name="pref_sort_Orders">
         <item>Sort by Popularity</item>
         <item>Sort by Rating</item>
+        <item>favourites</item>
     </string-array>
     <string-array name="pref_sort_order_values">
         <item>popularity.desc</item>
         <item>vote_average.desc</item>
+        <item>favourites</item>
     </string-array>
     <string-array name="pref_sync_frequency_titles">
         <item>15 minutes</item>

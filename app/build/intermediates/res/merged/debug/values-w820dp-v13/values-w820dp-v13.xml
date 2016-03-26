@@ -3,10 +3,12 @@
     <string-array name="listArray">
         <item>most popular</item>
         <item>highest-rated</item>
+        <item>favourites</item>
     </string-array>
     <string-array name="listValues">
         <item>most popular</item>
         <item>highest-rated</item>
+        <item>favourites</item>
     </string-array>
     <dimen name="activity_horizontal_margin">64dp</dimen>
 </resources>

@@ -31,10 +31,12 @@
     <string-array name="pref_sort_Orders">
         <item>Sort by Popularity</item>
         <item>Sort by Rating</item>
+        <item>favourites</item>
     </string-array>
     <string-array name="pref_sort_order_values">
         <item>popularity.desc</item>
         <item>vote_average.desc</item>
+        <item>favourites</item>
     </string-array>
 
     <!-- Example settings for Data & Sync -->
