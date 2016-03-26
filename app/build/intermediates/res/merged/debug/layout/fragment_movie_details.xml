@@ -89,7 +89,7 @@
         android:id="@+id/trailerText"
         android:textSize="16dp"
         android:textColor="#000000"
-        android:text="Reviews"/>
+        android:text="Trailers"/>
 
     <ListView
         android:layout_width="match_parent"

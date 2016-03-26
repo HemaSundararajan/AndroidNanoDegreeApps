@@ -21,6 +21,7 @@ public class MovieMainFragment extends Fragment{
     private MovieArrayAdapter movieArrayAdapter = null;
     private FetchMoviesTask movieUrlsTask;
     private String sortOrder;
+    private Boolean mTablet;
 
     public MovieMainFragment() {
         // Required empty public constructor
@@ -53,13 +54,18 @@ public class MovieMainFragment extends Fragment{
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                mTablet = ((MainActivity) getActivity()).isTablet();
                 Movie movie = movieArrayAdapter.getItem(position);
                 Intent movieIntent = new Intent(getContext(), MovieDetailsActivity.class);
-                if(sortOrder == "favourites") {
-                    movie.setIsFavourite(true);
+                if(!mTablet) {
+                    if(sortOrder == "favourites") {
+                        movie.setIsFavourite(true);
+                    }
+                    movieIntent.putExtra("Movie", movie);
+                    startActivity(movieIntent);
+                } else {
+                    ((MainActivity)getActivity()).replaceFragment(movie,sortOrder);
                 }
-                movieIntent.putExtra("Movie", movie);
-                startActivity(movieIntent);
             }
         });
         return rootView;

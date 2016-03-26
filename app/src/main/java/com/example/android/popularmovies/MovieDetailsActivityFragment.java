@@ -71,12 +71,17 @@ public class MovieDetailsActivityFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
          Intent movieIntent = getActivity().getIntent();
+        View rootView = inflater.inflate(R.layout.fragment_movie_details, container, false);
         if (movieIntent != null) {
             movie = (Movie) movieIntent.getSerializableExtra("Movie");
             movie.setReviews(new ArrayList<String>());
             movie.setTrailerUrl(new ArrayList<String>());
         }
-        View rootView = inflater.inflate(R.layout.fragment_movie_details, container, false);
+        if (getArguments() != null) {
+            movie = (Movie) getArguments().getSerializable("Movie");
+            movie.setReviews(new ArrayList<String>());
+            movie.setTrailerUrl(new ArrayList<String>());
+        }
 
         reviewArrayAdapter =new ArrayAdapter<String> (getContext(),R.layout.review_list_item,movie.getReviews());
         trailersArrayAdapter = new ArrayAdapter<String>(getContext(),R.layout.trailer_list_item,movie.getTrailerUrl());
