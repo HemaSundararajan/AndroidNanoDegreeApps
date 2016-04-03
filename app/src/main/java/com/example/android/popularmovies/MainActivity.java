@@ -35,12 +35,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void replaceFragment(Movie movie,String sortOrder) {
 
+        Movie movie1 = movie;
         MovieDetailsActivityFragment detailFragment = new MovieDetailsActivityFragment();
         Bundle args = new Bundle();
         if(sortOrder == "favourites") {
             movie.setIsFavourite(true);
         }
-        args.putSerializable("Movie", movie);
+        args.putSerializable("Movie", movie1);
         detailFragment.setArguments(args);
         getSupportFragmentManager().beginTransaction().replace(R.id.container, detailFragment).commit();
     }

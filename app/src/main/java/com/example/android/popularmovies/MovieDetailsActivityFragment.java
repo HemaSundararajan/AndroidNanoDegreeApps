@@ -45,6 +45,7 @@ public class MovieDetailsActivityFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
+        movie = new Movie();
     }
 
     @Override
@@ -70,23 +71,43 @@ public class MovieDetailsActivityFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-         Intent movieIntent = getActivity().getIntent();
-        View rootView = inflater.inflate(R.layout.fragment_movie_details, container, false);
-        if (movieIntent != null) {
-            movie = (Movie) movieIntent.getSerializableExtra("Movie");
+         /*Intent movieIntent = getActivity().getIntent();
+        Movie movie2 = new Movie();
+        Movie movie1 = (Movie) movieIntent.getSerializableExtra("Movie");
+        if(movie1 == null) {
+            movie2 = (Movie) getArguments().getSerializable("Movie");
+        }
+        if (movie1 != null) {
+            movie = movie1;
             movie.setReviews(new ArrayList<String>());
             movie.setTrailerUrl(new ArrayList<String>());
         }
-        if (getArguments() != null) {
+        else if (movie2 != null) {
+            movie = (Movie) getArguments().getSerializable("Movie");
+            movie.setReviews(new ArrayList<String>());
+            movie.setTrailerUrl(new ArrayList<String>());
+        }*/
+        if(getArguments() != null) {
             movie = (Movie) getArguments().getSerializable("Movie");
             movie.setReviews(new ArrayList<String>());
             movie.setTrailerUrl(new ArrayList<String>());
         }
-
+        else {
+            movie = new Movie();
+            movie.setMovieImageUrl("http://image.tmdb.org/t/p/w185/6bCplVkhowCjTHXWv49UjRPn0eK.jpg");
+            movie.setIsFavourite(false);
+            movie.setReviews(new ArrayList<String>());
+            movie.setTrailerUrl(new ArrayList<String>());
+            movie.setUserRating(5.93);
+            movie.setReleaseDate("2016-03-23");
+            movie.setMovieId(209112);
+            movie.setOriginalTitle("Batman v Superman: Dawn of Justice");
+            movie.setSynopsis("Fearing the actions of a god-like Super Hero left unchecked, Gotham City’s own formidable, forceful vigilante takes on Metropolis’s most revered, modern-day savior, while the world wrestles with what sort of hero it really needs. And with Batman and Superman at war with one another, a new threat quickly arises, putting mankind in greater danger than it’s ever known before.");
+        }
         reviewArrayAdapter =new ArrayAdapter<String> (getContext(),R.layout.review_list_item,movie.getReviews());
         trailersArrayAdapter = new ArrayAdapter<String>(getContext(),R.layout.trailer_list_item,movie.getTrailerUrl());
+        View rootView = inflater.inflate(R.layout.fragment_movie_details, container, false);
         if(movie != null) {
-
             ListView listView = (ListView) rootView.findViewById(R.id.reviewListView);
             listView.setAdapter(reviewArrayAdapter);
 
@@ -117,6 +138,8 @@ public class MovieDetailsActivityFragment extends Fragment {
                         AddToFavouriteTask addToFavouriteTask = new AddToFavouriteTask(getContext());
                         addToFavouriteTask.execute(movie);
                         movie.setIsFavourite(true);
+                        favButton.setText("Marked Favourite");
+                    } else {
                         favButton.setText("Marked Favourite");
                     }
                 }

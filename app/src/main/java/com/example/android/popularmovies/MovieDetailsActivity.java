@@ -1,17 +1,16 @@
 package com.example.android.popularmovies;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.FragmentActivity;
 import android.view.MenuItem;
 
-public class MovieDetailsActivity extends AppCompatActivity {
+public class MovieDetailsActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_movie_details);
+        setContentView(R.layout.activity_movie_details);
         if (getIntent() != null) {
             Intent movieIntent = getIntent();
             Movie movie = (Movie) movieIntent.getSerializableExtra("Movie");

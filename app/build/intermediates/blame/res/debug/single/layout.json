@@ -4,12 +4,12 @@
         "source": "/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
         "merged": "/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
         "source": "/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
@@ -144,12 +144,12 @@
         "source": "/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
-        "source": "/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/res/merged/debug/layout/review_list_item.xml",
         "source": "/home/hema/AndroidStudioProjects/PopularMovies/app/src/main/res/layout/review_list_item.xml"
+    },
+    {
+        "merged": "/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_template_big_media_narrow.xml"
     },
     {
         "merged": "/home/hema/AndroidStudioProjects/PopularMovies/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
